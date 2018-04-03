@@ -8,7 +8,8 @@
   "scripts": {
     "test": "live-server --open=./SpecRunner.html --port=8081",
     "start": "live-server",
-    "compile": "webpack -d --watch"
+    "compile": "webpack -d --watch",
+    "dev": "npm start && npm run compile && npm run test"
   },
   "dependencies": {
     "babel-core": "6.24.1",
